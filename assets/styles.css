@@ -1,0 +1,68 @@
+body{
+    font-family: 'Cabin', sans-serif;
+    color: #E3E3E3;
+}
+
+nav{
+    border-radius: 4px;
+}
+
+button{
+    margin: auto;
+    padding: 5px;
+    font-family: 'Cabin', sans-serif;
+}
+
+p{
+    border-style: solid;
+    border-width: 1px;
+    border: lightgrey;
+    height: 60px;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+footer{
+    position: fixed;   
+    left: 0;
+    bottom: 0;
+    width: 100%;    
+    text-align: center;
+    background-color: #373737;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-stretch: semi-expanded;
+    padding: 0px;
+}
+
+.idbox{
+    background: #fff;
+    border: lightgrey;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    padding: 8px;
+    height: 400px;
+}
+
+.btn-sm {
+    font-size: .75rem;
+}
+
+#title1{
+    margin: auto;  
+    color: #E3E3E3;
+    padding: 30px 0px 30px 0px;  
+}
+
+#title2{
+    margin: auto;  
+    color: #3b4954;
+    padding: 10px 0px 10px 0px;
+}
+
+#question{
+    color: black;
+    font-size: 20px;
+}
+
