@@ -1,24 +1,43 @@
 // Questions
-var myQuestions = [
-	{
-		question: "What is 10/2?",
-		answers: {
-			a: '3',
-			b: '5',
-			c: '115'
-		},
-		correctAnswer: 'b'
-	},
-	{
-		question: "What is 30/3?",
-		answers: {
-			a: '3',
-			b: '5',
-			c: '10'
-		},
-		correctAnswer: 'c'
-	}
-];
+
+var questions = [
+    {
+        title: "Commonly used data types DO NOT include:",
+        choices: ["strings", "booleans", "alerts", "numbers"],
+        answer: "alerts"
+    },
+    {
+        title: "The condition in an if / else statement is enclosed within ____.",
+        choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
+        answer: "parentheses"
+    },
+    {
+        title: "Which browser has 'dev tools' making it very useful for web development",
+        choices: ['Tor', 'Chrome', 'Internet Explorer', 'Firefox'],
+        answer: 'Chrome'
+    },
+    {
+        title: "To run Javascript within your HTML document, do you place the script in the head or the body?",
+        choices: ['Head', 'Body'],
+        answer: 'Body'
+    },
+    {
+        title: "Console Logs are useful in a final, fully-deployed website",
+        choices: ['True', 'False'],
+        answer: 'False'
+    },
+    {
+        title: "How do you create a function in JavaScript?",
+        choices: ['function = myFunction()', 'function: myFunction()', 'function myFunction()','myFunction function()' ],
+        answer: 'function myFunction()'
+    },
+    {
+        title: "The condition in an if / else statement is enclosed within ____.",
+        choices: ['quotes', 'curly brackets', 'square brackets','parantheses' ],
+        answer: 'parentheses'
+    },
+]
+  
 
 // Functions to show the Questions
 function showQuestions(questions, quizContainer){
