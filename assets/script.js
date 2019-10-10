@@ -38,6 +38,16 @@ var questions = [
     },
 ]
   
+// On Click for Answer Buttons
+$(".answer").on("click", function() {
+    console.log('answer duh');
+    // $('#operator').empty();
+    // $('#operator').append(this.innerText);
+    // operator = event.target.innerText;
+    // console.log("operator set as:" , operator);
+});
+
+
 
 // Functions to show the Questions
 function showQuestions(questions, quizContainer){
